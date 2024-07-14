@@ -56,6 +56,11 @@
 }
 
 
+.burger_icon {
+    display: none;
+}
+
+
 /*section1*/
 
 
@@ -91,11 +96,10 @@
 
 .section2 {
     width: calc(1140 / 1440 * 100%);
-    height: 128px;
+    /*height: 128px;*/
     margin: 100px auto;
     display: flex;
-    justify-content: space-between;
-    column-gap: 36px;
+    gap: 36px;
 }
 
 
@@ -107,9 +111,9 @@
 }
 
 
-.section2_article {
+/*.section2_article {
     width: calc(356 / 1140 * 100%);
-}
+}*/
 
 .section2_article {
     background-color: #E3DAD8;

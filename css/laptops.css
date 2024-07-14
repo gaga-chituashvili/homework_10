@@ -1,1 +1,72 @@
 /* 1439-769px */
+
+@media (max-width: 1103px) {
+
+    .section1 {
+        height: 560px;
+    }
+
+    /*section2*/
+
+    .section2 {
+        height: 152px;
+        margin: 80px auto;
+        gap: 30px;
+    }
+
+    /*header*/
+    .header {
+        padding: 24px 32px;
+    }
+
+    /*footer*/
+    .footer {
+        padding: 40px 32px;
+    }
+
+}
+
+
+@media (max-width:848px) {
+
+    /*header*/
+    .burger_icon {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .header {
+        padding: 24px;
+    }
+
+    .section1 {
+        height: 420px;
+    }
+
+    /*section2*/
+    .section2 {
+        flex-direction: column;
+        margin: 40px auto;
+        gap: 20px;
+    }
+
+    .section2_article_title {
+        margin: auto;
+    }
+
+    .section2_article_text {
+        text-align: center;
+    }
+    .footer{
+        height: 283px;
+        flex-direction: column;
+        padding: 40px 149px;
+    }
+}
