@@ -149,7 +149,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 96px 150px;
     background-color: rgb(57, 34, 6);
 }
@@ -165,9 +165,10 @@
 }
 
 
+
+
 .footer_section {
     display: flex;
-    justify-content: space-between;
     column-gap: 80px;
 }
 
@@ -181,16 +182,14 @@
 }
 
 
-.header_ul {
+
+.footer_ul {
     display: flex;
+    flex-direction: column;
     row-gap: 8px;
 }
 
 
-.footer_ul_section {
-    display: flex;
-    flex-direction: column;
-}
 
 
 h4,
